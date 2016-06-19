@@ -1,0 +1,606 @@
+[ 2016-06-19 09:53:56.6992 4107/0x7fff7dc74000 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-06-19 09:53:56.7185 4109/0x7fff7dc74000 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-06-19 09:53:56.7195 4109/0x7fff7dc74000 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-06-19 09:53:56.7270 4109/0x7fff7dc74000 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 4109
+[ 2016-06-19 09:53:56.7363 4111/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-06-19 09:53:56.7372 4111/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 4111
+App 4123 stdout: 
+App 4123 stdout: [[[[[ ~/Dev/coffeeApp ]]]]]
+App 4123 stdout: 
+App 4123 stdout: => Started proxy.
+App 4123 stdout: => Started MongoDB.
+App 4123 stdout: => Started your app.
+App 4123 stdout: 
+App 4123 stdout: => App running at: http://localhost:1174/
+App 4123 stdout: => Server modified -- restarting...
+App 4123 stdout:                                    
+App 4123 stdout: => Meteor server restarted
+App 4123 stdout: 
+App 4123 stdout: => Server modified -- restarting...
+App 4123 stdout:                                    
+App 4123 stdout: => Meteor server restarted
+App 4123 stdout: 
+App 4123 stdout: => Server modified -- restarting...
+App 4123 stdout:                                    
+App 4123 stdout: => Meteor server restarted
+App 4123 stdout: 
+App 4123 stdout: => Server modified -- restarting...
+App 4123 stdout:                                    
+App 4123 stdout: => Meteor server restarted
+App 4123 stdout: 
+App 4123 stdout: => Server modified -- restarting...
+App 4123 stdout:                                    
+App 4123 stdout: => Meteor server restarted
+App 4123 stdout: 
+App 4123 stdout: => Server modified -- restarting...
+App 4123 stdout:                                    
+App 4123 stdout: => Meteor server restarted
+
+
+[ 2016-06-19 10:06:59.0924 4109/0x70000018a000 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-06-19 10:06:59.0925 4109/0x7fff7dc74000 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-06-19 10:06:59.0925 4111/0x700000104000 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-06-19 10:06:59.0926 4109/0x7fff7dc74000 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 4123, application /Users/melou/Dev/coffeeApp/public (development)
+[ 2016-06-19 10:06:59.0926 4111/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-06-19 10:06:59.0927 4111/0x700000104000 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-06-19 10:06:59.0928 4111/0x70000020a000 Ser/Server.h:816 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-06-19 10:06:59.0929 4111/0x70000020a000 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-06-19 10:06:59.0930 4109/0x70000018a000 Ser/Server.h:816 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-06-19 10:06:59.0931 4109/0x70000018a000 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-06-19 10:06:59.0933 4109/0x700000290000 Ser/Server.h:816 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-06-19 10:06:59.0934 4109/0x700000290000 Ser/Server.h:464 ]: [ServerThr.2] Shutdown finished
+[ 2016-06-19 10:06:59.0936 4109/0x700000396000 Ser/Server.h:816 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-06-19 10:06:59.0937 4109/0x700000396000 Ser/Server.h:464 ]: [ServerThr.3] Shutdown finished
+[ 2016-06-19 10:06:59.0939 4109/0x70000049c000 Ser/Server.h:816 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-06-19 10:06:59.0939 4109/0x70000049c000 Ser/Server.h:464 ]: [ServerThr.4] Shutdown finished
+[ 2016-06-19 10:06:59.0942 4109/0x7000005a2000 Ser/Server.h:816 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-06-19 10:06:59.0943 4109/0x7000005a2000 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-06-19 10:06:59.0943 4111/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-06-19 10:06:59.0945 4109/0x7fff7dc74000 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 4123, application /Users/melou/Dev/coffeeApp/public (development)
+[ 2016-06-19 10:06:59.2667 4109/0x7fff7dc74000 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-06-19 10:27:58.6318 4575/0x7fff7dc74000 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-06-19 10:27:58.6534 4577/0x7fff7dc74000 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-06-19 10:27:58.6541 4577/0x7fff7dc74000 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-06-19 10:27:58.6609 4577/0x7fff7dc74000 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 4577
+[ 2016-06-19 10:27:58.6699 4579/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-06-19 10:27:58.6709 4579/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 4579
+App 4592 stdout: 
+App 4592 stdout: [[[[[ ~/Dev/coffeeApp ]]]]]
+App 4592 stdout: 
+App 4592 stdout: => Started proxy.
+App 4592 stdout: => Started MongoDB.
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./main.html" in /Users/melou/Dev/coffeeApp/imports/ui/body.js (web.browser)
+App 4592 stderr: 
+App 4592 stdout: => Started your app.
+App 4592 stdout: 
+App 4592 stdout: => App running at: http://localhost:9221/
+App 4592 stdout: => Server modified -- restarting...
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./main.html" in /Users/melou/Dev/coffeeApp/imports/ui/body.js (web.browser)
+App 4592 stderr: 
+App 4592 stdout:                                    
+App 4592 stdout: => Meteor server restarted
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./main.html" in /Users/melou/Dev/coffeeApp/imports/ui/body.js (web.browser)
+App 4592 stderr: 
+App 4592 stdout: 
+App 4592 stdout: => Client modified -- refreshing
+App 4592 stdout: 
+App 4592 stdout: => Server modified -- restarting...
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./main.html" in /Users/melou/Dev/coffeeApp/imports/ui/body.js (web.browser)
+App 4592 stderr: 
+App 4592 stdout:                                    
+App 4592 stdout: => Meteor server restarted
+App 4592 stdout: 
+App 4592 stdout: => Server modified -- restarting...
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./main.html" in /Users/melou/Dev/coffeeApp/imports/ui/body.js (web.browser)
+App 4592 stderr: 
+App 4592 stdout:                                    
+App 4592 stdout: => Meteor server restarted
+App 4592 stdout: 
+App 4592 stdout: => Server modified -- restarting...
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./main.html" in /Users/melou/Dev/coffeeApp/imports/ui/body.js (web.browser)
+App 4592 stderr: 
+App 4592 stdout:                                    
+App 4592 stdout: => Meteor server restarted
+App 4592 stdout: 
+App 4592 stdout: => Server modified -- restarting...
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./main.html" in /Users/melou/Dev/coffeeApp/imports/ui/body.js (web.browser)
+App 4592 stderr: 
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./api" in /Users/melou/Dev/coffeeApp/imports/startup/server/index.js
+App 4592 stderr: (os.osx.x86_64)
+App 4592 stderr: 
+App 4592 stdout:                                    
+App 4592 stdout: [34mW20160619-10:34:20.993(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:34:21.107(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:34:21.107(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:34:21.108(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:34:21.108(1)? (STDERR) [39m[35mError: Cannot find module './api'[39m
+App 4592 stdout: [34mW20160619-10:34:21.108(1)? (STDERR) [39m[35m    at Function.require.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:101:1)[39m
+App 4592 stdout: [34mW20160619-10:34:21.109(1)? (STDERR) [39m[35m    at Module.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:57:1)[39m
+App 4592 stdout: [34mW20160619-10:34:21.109(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:61:29)[39m
+App 4592 stdout: [34mW20160619-10:34:21.111(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.index.js (imports/startup/server/index.js:1:8)[39m
+App 4592 stdout: [34mW20160619-10:34:21.111(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:34:21.111(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:34:21.112(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:34:21.112(1)? (STDERR) [39m[35m    at meteorInstall.server.main.js (server/main.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:34:21.112(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:34:21.112(1)? (STDERR) [39m[35m    at require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./main.html" in /Users/melou/Dev/coffeeApp/imports/ui/body.js (web.browser)
+App 4592 stderr: 
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./api" in /Users/melou/Dev/coffeeApp/imports/startup/server/index.js
+App 4592 stderr: (os.osx.x86_64)
+App 4592 stderr: 
+App 4592 stdout: [34mW20160619-10:34:23.654(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:34:23.655(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:34:23.655(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:34:23.655(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:34:23.665(1)? (STDERR) [39m[35mError: Cannot find module './api'[39m
+App 4592 stdout: [34mW20160619-10:34:23.666(1)? (STDERR) [39m[35m    at Function.require.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:101:1)[39m
+App 4592 stdout: [34mW20160619-10:34:23.666(1)? (STDERR) [39m[35m    at Module.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:57:1)[39m
+App 4592 stdout: [34mW20160619-10:34:23.667(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:61:29)[39m
+App 4592 stdout: [34mW20160619-10:34:23.667(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.index.js (imports/startup/server/index.js:1:8)[39m
+App 4592 stdout: [34mW20160619-10:34:23.667(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:34:23.668(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:34:23.668(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:34:23.669(1)? (STDERR) [39m[35m    at meteorInstall.server.main.js (server/main.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:34:23.669(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:34:23.669(1)? (STDERR) [39m[35m    at require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./main.html" in /Users/melou/Dev/coffeeApp/imports/ui/body.js (web.browser)
+App 4592 stderr: 
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./api" in /Users/melou/Dev/coffeeApp/imports/startup/server/index.js
+App 4592 stderr: (os.osx.x86_64)
+App 4592 stderr: 
+App 4592 stdout: [34mW20160619-10:34:26.250(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:34:26.251(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:34:26.252(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:34:26.252(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:34:26.260(1)? (STDERR) [39m[35mError: Cannot find module './api'[39m
+App 4592 stdout: [34mW20160619-10:34:26.261(1)? (STDERR) [39m[35m    at Function.require.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:101:1)[39m
+App 4592 stdout: [34mW20160619-10:34:26.261(1)? (STDERR) [39m[35m    at Module.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:57:1)[39m
+App 4592 stdout: [34mW20160619-10:34:26.262(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:61:29)[39m
+App 4592 stdout: [34mW20160619-10:34:26.262(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.index.js (imports/startup/server/index.js:1:8)[39m
+App 4592 stdout: [34mW20160619-10:34:26.262(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:34:26.263(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:34:26.263(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:34:26.263(1)? (STDERR) [39m[35m    at meteorInstall.server.main.js (server/main.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:34:26.264(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:34:26.264(1)? (STDERR) [39m[35m    at require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: => Your application is crashing. Waiting for file change.
+App 4592 stdout: => Modified -- restarting.
+App 4592 stderr: 
+App 4592 stderr: Unable to resolve some modules:
+App 4592 stderr: 
+App 4592 stderr:   "./main.html" in /Users/melou/Dev/coffeeApp/imports/ui/body.js (web.browser)
+App 4592 stderr: 
+App 4592 stdout: [34mW20160619-10:36:11.343(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:36:11.344(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:36:11.345(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:36:11.345(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:36:11.353(1)? (STDERR) [39m[35mError: Cannot find module '../../api'[39m
+App 4592 stdout: [34mW20160619-10:36:11.354(1)? (STDERR) [39m[35m    at Function.require.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:101:1)[39m
+App 4592 stdout: [34mW20160619-10:36:11.354(1)? (STDERR) [39m[35m    at Module.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:57:1)[39m
+App 4592 stdout: [34mW20160619-10:36:11.355(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:61:29)[39m
+App 4592 stdout: [34mW20160619-10:36:11.355(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.index.js (imports/startup/server/index.js:1:8)[39m
+App 4592 stdout: [34mW20160619-10:36:11.356(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:36:11.356(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:36:11.356(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:36:11.357(1)? (STDERR) [39m[35m    at meteorInstall.server.main.js (server/main.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:36:11.357(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:36:11.357(1)? (STDERR) [39m[35m    at require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: => Your application is crashing. Waiting for file change.
+App 4592 stdout: => Modified -- restarting.
+App 4592 stdout: [34mW20160619-10:36:37.601(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:36:37.602(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:36:37.603(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:36:37.604(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:36:37.616(1)? (STDERR) [39m[35mError: Cannot find module '../../api'[39m
+App 4592 stdout: [34mW20160619-10:36:37.616(1)? (STDERR) [39m[35m    at Function.require.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:101:1)[39m
+App 4592 stdout: [34mW20160619-10:36:37.618(1)? (STDERR) [39m[35m    at Module.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:57:1)[39m
+App 4592 stdout: [34mW20160619-10:36:37.618(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:61:29)[39m
+App 4592 stdout: [34mW20160619-10:36:37.618(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.index.js (imports/startup/server/index.js:1:8)[39m
+App 4592 stdout: [34mW20160619-10:36:37.619(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:36:37.619(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:36:37.619(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:36:37.619(1)? (STDERR) [39m[35m    at meteorInstall.server.main.js (server/main.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:36:37.620(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:36:37.620(1)? (STDERR) [39m[35m    at require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: => Your application is crashing. Waiting for file change.
+App 4592 stdout: => Modified -- restarting.
+App 4592 stdout: [34mW20160619-10:37:11.924(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:37:11.925(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:37:11.926(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:37:11.926(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:37:11.940(1)? (STDERR) [39m[35mError: Cannot find module '../../api'[39m
+App 4592 stdout: [34mW20160619-10:37:11.941(1)? (STDERR) [39m[35m    at Function.require.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:101:1)[39m
+App 4592 stdout: [34mW20160619-10:37:11.941(1)? (STDERR) [39m[35m    at Module.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:57:1)[39m
+App 4592 stdout: [34mW20160619-10:37:11.942(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:61:29)[39m
+App 4592 stdout: [34mW20160619-10:37:11.942(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.index.js (imports/startup/server/index.js:1:8)[39m
+App 4592 stdout: [34mW20160619-10:37:11.942(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:37:11.942(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:37:11.943(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:37:11.943(1)? (STDERR) [39m[35m    at meteorInstall.server.main.js (server/main.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:37:11.943(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:37:11.943(1)? (STDERR) [39m[35m    at require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: => Your application is crashing. Waiting for file change.
+App 4592 stdout: => Modified -- restarting.
+App 4592 stdout: [34mW20160619-10:37:35.455(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:37:35.456(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:37:35.457(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:37:35.457(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:37:35.466(1)? (STDERR) [39m[35mError: Cannot find module '../../api'[39m
+App 4592 stdout: [34mW20160619-10:37:35.467(1)? (STDERR) [39m[35m    at Function.require.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:101:1)[39m
+App 4592 stdout: [34mW20160619-10:37:35.467(1)? (STDERR) [39m[35m    at Module.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:57:1)[39m
+App 4592 stdout: [34mW20160619-10:37:35.467(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:61:29)[39m
+App 4592 stdout: [34mW20160619-10:37:35.468(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.index.js (imports/startup/server/index.js:1:8)[39m
+App 4592 stdout: [34mW20160619-10:37:35.468(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:37:35.468(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:37:35.468(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:37:35.469(1)? (STDERR) [39m[35m    at meteorInstall.server.main.js (server/main.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:37:35.469(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:37:35.469(1)? (STDERR) [39m[35m    at require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: => Your application is crashing. Waiting for file change.
+App 4592 stdout: => Modified -- restarting.
+App 4592 stdout: [34mW20160619-10:38:33.187(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:38:33.188(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:38:33.189(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:38:33.190(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:38:33.211(1)? (STDERR) [39m[35mError: Cannot find module '../../api/coffee'[39m
+App 4592 stdout: [34mW20160619-10:38:33.213(1)? (STDERR) [39m[35m    at Function.require.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:101:1)[39m
+App 4592 stdout: [34mW20160619-10:38:33.213(1)? (STDERR) [39m[35m    at Module.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:57:1)[39m
+App 4592 stdout: [34mW20160619-10:38:33.215(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:61:29)[39m
+App 4592 stdout: [34mW20160619-10:38:33.215(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.index.js (imports/startup/server/index.js:1:8)[39m
+App 4592 stdout: [34mW20160619-10:38:33.216(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:38:33.216(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:38:33.216(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:38:33.217(1)? (STDERR) [39m[35m    at meteorInstall.server.main.js (server/main.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:38:33.218(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:38:33.218(1)? (STDERR) [39m[35m    at require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: => Your application is crashing. Waiting for file change.
+App 4592 stdout: => Modified -- restarting.
+App 4592 stdout: [34mW20160619-10:39:30.555(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:39:30.556(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:39:30.556(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:39:30.557(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:39:30.566(1)? (STDERR) [39m[35mError: Cannot find module '/imports/api/coffee'[39m
+App 4592 stdout: [34mW20160619-10:39:30.567(1)? (STDERR) [39m[35m    at Function.require.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:101:1)[39m
+App 4592 stdout: [34mW20160619-10:39:30.568(1)? (STDERR) [39m[35m    at Module.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:57:1)[39m
+App 4592 stdout: [34mW20160619-10:39:30.568(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:61:29)[39m
+App 4592 stdout: [34mW20160619-10:39:30.568(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.index.js (imports/startup/server/index.js:1:8)[39m
+App 4592 stdout: [34mW20160619-10:39:30.569(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:39:30.569(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:39:30.571(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:39:30.573(1)? (STDERR) [39m[35m    at meteorInstall.server.main.js (server/main.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:39:30.573(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:39:30.573(1)? (STDERR) [39m[35m    at require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: => Your application is crashing. Waiting for file change.
+App 4592 stdout: => Modified -- restarting.
+App 4592 stdout: [34mW20160619-10:41:24.906(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:41:24.907(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:41:24.907(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:41:24.907(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:41:24.918(1)? (STDERR) [39m[35mError: Cannot find module '/imports/startup/server'[39m
+App 4592 stdout: [34mW20160619-10:41:24.918(1)? (STDERR) [39m[35m    at Function.require.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:101:1)[39m
+App 4592 stdout: [34mW20160619-10:41:24.918(1)? (STDERR) [39m[35m    at Module.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:57:1)[39m
+App 4592 stdout: [34mW20160619-10:41:24.919(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:61:29)[39m
+App 4592 stdout: [34mW20160619-10:41:24.919(1)? (STDERR) [39m[35m    at meteorInstall.server.main.js (server/main.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:41:24.920(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:41:24.920(1)? (STDERR) [39m[35m    at require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:41:24.920(1)? (STDERR) [39m[35m    at /Users/melou/Dev/coffeeApp/.meteor/local/build/programs/server/app/app.js:18:1[39m
+App 4592 stdout: [34mW20160619-10:41:24.920(1)? (STDERR) [39m[35m    at /Users/melou/Dev/coffeeApp/.meteor/local/build/programs/server/boot.js:297:10[39m
+App 4592 stdout: [34mW20160619-10:41:24.921(1)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+App 4592 stdout: [34mW20160619-10:41:24.921(1)? (STDERR) [39m[35m    at Function._.each._.forEach (/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/underscore/underscore.js:79:11)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: => Your application is crashing. Waiting for file change.
+App 4592 stdout: => Modified -- restarting.
+App 4592 stdout: [34mW20160619-10:41:36.708(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:41:36.709(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:41:36.709(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:41:36.709(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:41:36.719(1)? (STDERR) [39m[35mError: Cannot find module '/imports/startup/server'[39m
+App 4592 stdout: [34mW20160619-10:41:36.719(1)? (STDERR) [39m[35m    at Function.require.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:101:1)[39m
+App 4592 stdout: [34mW20160619-10:41:36.719(1)? (STDERR) [39m[35m    at Module.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:57:1)[39m
+App 4592 stdout: [34mW20160619-10:41:36.720(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:61:29)[39m
+App 4592 stdout: [34mW20160619-10:41:36.720(1)? (STDERR) [39m[35m    at meteorInstall.server.main.js (server/main.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:41:36.720(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:41:36.720(1)? (STDERR) [39m[35m    at require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:41:36.721(1)? (STDERR) [39m[35m    at /Users/melou/Dev/coffeeApp/.meteor/local/build/programs/server/app/app.js:18:1[39m
+App 4592 stdout: [34mW20160619-10:41:36.721(1)? (STDERR) [39m[35m    at /Users/melou/Dev/coffeeApp/.meteor/local/build/programs/server/boot.js:297:10[39m
+App 4592 stdout: [34mW20160619-10:41:36.721(1)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+App 4592 stdout: [34mW20160619-10:41:36.721(1)? (STDERR) [39m[35m    at Function._.each._.forEach (/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/underscore/underscore.js:79:11)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: => Your application is crashing. Waiting for file change.
+App 4592 stdout: => Modified -- restarting.
+App 4592 stdout: [34mW20160619-10:42:03.411(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:42:03.414(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:42:03.414(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:42:03.414(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:42:03.424(1)? (STDERR) [39m[35mError: Cannot find module '/imports/startup/server'[39m
+App 4592 stdout: [34mW20160619-10:42:03.425(1)? (STDERR) [39m[35m    at Function.require.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:101:1)[39m
+App 4592 stdout: [34mW20160619-10:42:03.425(1)? (STDERR) [39m[35m    at Module.resolve (packages/modules-runtime/.npm/package/node_modules/install/install.js:57:1)[39m
+App 4592 stdout: [34mW20160619-10:42:03.425(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:61:29)[39m
+App 4592 stdout: [34mW20160619-10:42:03.426(1)? (STDERR) [39m[35m    at meteorInstall.server.main.js (server/main.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:42:03.426(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:42:03.426(1)? (STDERR) [39m[35m    at require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:42:03.426(1)? (STDERR) [39m[35m    at /Users/melou/Dev/coffeeApp/.meteor/local/build/programs/server/app/app.js:18:1[39m
+App 4592 stdout: [34mW20160619-10:42:03.427(1)? (STDERR) [39m[35m    at /Users/melou/Dev/coffeeApp/.meteor/local/build/programs/server/boot.js:297:10[39m
+App 4592 stdout: [34mW20160619-10:42:03.428(1)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+App 4592 stdout: [34mW20160619-10:42:03.428(1)? (STDERR) [39m[35m    at Function._.each._.forEach (/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/underscore/underscore.js:79:11)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: => Your application is crashing. Waiting for file change.
+App 4592 stdout: => Modified -- restarting.
+App 4592 stdout: => Meteor server restarted
+App 4592 stdout: 
+App 4592 stdout: => Server modified -- restarting...
+App 4592 stdout:                                    
+App 4592 stdout: [34mW20160619-10:42:30.385(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:42:30.387(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:42:30.387(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:42:30.387(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:42:30.398(1)? (STDERR) [39m[35mError: Can't find npm module 'meteor/mdg:validated-method'. Did you forget to call 'Npm.depends' in package.js within the 'modules-runtime' package?[39m
+App 4592 stdout: [34mW20160619-10:42:30.399(1)? (STDERR) [39m[35m    at Object.Npm.require (/Users/melou/Dev/coffeeApp/.meteor/local/build/programs/server/boot.js:203:17)[39m
+App 4592 stdout: [34mW20160619-10:42:30.399(1)? (STDERR) [39m[35m    at options.fallback (packages/modules-runtime/modules-runtime.js:21:1)[39m
+App 4592 stdout: [34mW20160619-10:42:30.399(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:88:1)[39m
+App 4592 stdout: [34mW20160619-10:42:30.400(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:42:30.400(1)? (STDERR) [39m[35m    at meteorInstall.imports.api.coffee.methods.js (imports/api/coffee/methods.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:42:30.400(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:42:30.400(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:42:30.401(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:42:30.401(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.api.js (imports/startup/server/api.js:1:8)[39m
+App 4592 stdout: [34mW20160619-10:42:30.401(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: [34mW20160619-10:42:32.957(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:42:32.959(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:42:32.961(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:42:32.962(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:42:32.973(1)? (STDERR) [39m[35mError: Can't find npm module 'meteor/mdg:validated-method'. Did you forget to call 'Npm.depends' in package.js within the 'modules-runtime' package?[39m
+App 4592 stdout: [34mW20160619-10:42:32.974(1)? (STDERR) [39m[35m    at Object.Npm.require (/Users/melou/Dev/coffeeApp/.meteor/local/build/programs/server/boot.js:203:17)[39m
+App 4592 stdout: [34mW20160619-10:42:32.974(1)? (STDERR) [39m[35m    at options.fallback (packages/modules-runtime/modules-runtime.js:21:1)[39m
+App 4592 stdout: [34mW20160619-10:42:32.975(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:88:1)[39m
+App 4592 stdout: [34mW20160619-10:42:32.975(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:42:32.975(1)? (STDERR) [39m[35m    at meteorInstall.imports.api.coffee.methods.js (imports/api/coffee/methods.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:42:32.976(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:42:32.976(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:42:32.976(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:42:32.977(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.api.js (imports/startup/server/api.js:1:8)[39m
+App 4592 stdout: [34mW20160619-10:42:32.977(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: [34mW20160619-10:42:36.136(1)? (STDERR) [39m[35m[39m
+App 4592 stdout: [34mW20160619-10:42:36.138(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 4592 stdout: [34mW20160619-10:42:36.138(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 4592 stdout: [34mW20160619-10:42:36.139(1)? (STDERR) [39m[35m						      ^[39m
+App 4592 stdout: [34mW20160619-10:42:36.176(1)? (STDERR) [39m[35mError: Can't find npm module 'meteor/mdg:validated-method'. Did you forget to call 'Npm.depends' in package.js within the 'modules-runtime' package?[39m
+App 4592 stdout: [34mW20160619-10:42:36.176(1)? (STDERR) [39m[35m    at Object.Npm.require (/Users/melou/Dev/coffeeApp/.meteor/local/build/programs/server/boot.js:203:17)[39m
+App 4592 stdout: [34mW20160619-10:42:36.177(1)? (STDERR) [39m[35m    at options.fallback (packages/modules-runtime/modules-runtime.js:21:1)[39m
+App 4592 stdout: [34mW20160619-10:42:36.177(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:88:1)[39m
+App 4592 stdout: [34mW20160619-10:42:36.177(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:42:36.178(1)? (STDERR) [39m[35m    at meteorInstall.imports.api.coffee.methods.js (imports/api/coffee/methods.js:1:1)[39m
+App 4592 stdout: [34mW20160619-10:42:36.179(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: [34mW20160619-10:42:36.180(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 4592 stdout: [34mW20160619-10:42:36.180(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 4592 stdout: [34mW20160619-10:42:36.181(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.api.js (imports/startup/server/api.js:1:8)[39m
+App 4592 stdout: [34mW20160619-10:42:36.181(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 4592 stdout: => Exited with code: 8
+App 4592 stdout: => Your application is crashing. Waiting for file change.
+App 4592 stdout: => Modified -- restarting.
+
+[ 2016-06-19 10:43:56.9288 4577/0x70000018a000 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2016-06-19 10:43:56.9289 4577/0x7fff7dc74000 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-06-19 10:43:56.9290 4577/0x7fff7dc74000 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 4592, application /Users/melou/Dev/coffeeApp/public (development)
+[ 2016-06-19 10:43:56.9289 4579/0x700000104000 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-06-19 10:43:56.9290 4579/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-06-19 10:43:56.9291 4579/0x700000104000 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-06-19 10:43:56.9292 4579/0x70000020a000 Ser/Server.h:816 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-06-19 10:43:56.9292 4579/0x70000020a000 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-06-19 10:43:56.9293 4577/0x70000018a000 Ser/Server.h:816 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-06-19 10:43:56.9294 4577/0x70000018a000 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-06-19 10:43:56.9299 4577/0x700000290000 Ser/Server.h:816 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-06-19 10:43:56.9300 4577/0x700000290000 Ser/Server.h:464 ]: [ServerThr.2] Shutdown finished
+[ 2016-06-19 10:43:56.9303 4577/0x700000396000 Ser/Server.h:816 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-06-19 10:43:56.9305 4577/0x700000396000 Ser/Server.h:464 ]: [ServerThr.3] Shutdown finished
+[ 2016-06-19 10:43:56.9307 4577/0x70000049c000 Ser/Server.h:816 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-06-19 10:43:56.9308 4577/0x70000049c000 Ser/Server.h:464 ]: [ServerThr.4] Shutdown finished
+[ 2016-06-19 10:43:56.9311 4577/0x7000005a2000 Ser/Server.h:816 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-06-19 10:43:56.9311 4577/0x7000005a2000 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-06-19 10:43:56.9313 4577/0x7fff7dc74000 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 4592, application /Users/melou/Dev/coffeeApp/public (development)
+[ 2016-06-19 10:43:56.9315 4579/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-06-19 10:43:57.2186 4577/0x7fff7dc74000 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-06-19 10:43:59.7094 5139/0x7fff7dc74000 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-06-19 10:43:59.7287 5141/0x7fff7dc74000 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-06-19 10:43:59.7296 5141/0x7fff7dc74000 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-06-19 10:43:59.7382 5141/0x7fff7dc74000 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 5141
+[ 2016-06-19 10:43:59.7475 5143/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-06-19 10:43:59.7485 5143/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 5143
+App 5156 stdout: 
+App 5156 stdout: [[[[[ ~/Dev/coffeeApp ]]]]]
+App 5156 stdout: 
+App 5156 stdout: => Started proxy.
+App 5156 stdout: => Started MongoDB.
+App 5156 stdout: => Started your app.
+App 5156 stdout: 
+App 5156 stdout: => App running at: http://localhost:5197/
+App 5156 stdout: => Client modified -- refreshing
+App 5156 stdout: 
+App 5156 stdout: => Client modified -- refreshing (x2)
+App 5156 stdout: 
+App 5156 stdout: => Server modified -- restarting...
+App 5156 stdout:                                    
+App 5156 stdout: => Meteor server restarted
+App 5156 stdout: 
+App 5156 stdout: => Server modified -- restarting...
+App 5156 stdout:                                    
+App 5156 stdout: => Meteor server restarted
+App 5156 stdout: 
+App 5156 stdout: => Server modified -- restarting...
+App 5156 stdout:                                    
+App 5156 stdout: => Meteor server restarted
+App 5156 stdout: 
+App 5156 stdout: => Server modified -- restarting...
+App 5156 stdout:                                    
+App 5156 stdout: => Meteor server restarted
+App 5156 stdout: 
+App 5156 stdout: => Server modified -- restarting...
+App 5156 stdout:                                    
+App 5156 stdout: => Meteor server restarted
+App 5156 stdout: 
+App 5156 stdout: => Server modified -- restarting...
+App 5156 stdout:                                    
+App 5156 stdout: => Meteor server restarted
+App 5156 stdout: 
+App 5156 stdout: => Server modified -- restarting...
+App 5156 stdout:                                    
+App 5156 stdout: [34mW20160619-17:44:44.461(1)? (STDERR) [39m[35m[39m
+App 5156 stdout: [34mW20160619-17:44:44.648(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 5156 stdout: [34mW20160619-17:44:44.649(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 5156 stdout: [34mW20160619-17:44:44.649(1)? (STDERR) [39m[35m						      ^[39m
+App 5156 stdout: [34mW20160619-17:44:44.650(1)? (STDERR) [39m[35mTypeError: Cannot call method 'validator' of undefined[39m
+App 5156 stdout: [34mW20160619-17:44:44.650(1)? (STDERR) [39m[35m    at meteorInstall.imports.api.coffee.methods.js (imports/api/coffee/methods.js:9:27)[39m
+App 5156 stdout: [34mW20160619-17:44:44.651(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 5156 stdout: [34mW20160619-17:44:44.652(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 5156 stdout: [34mW20160619-17:44:44.652(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 5156 stdout: [34mW20160619-17:44:44.652(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.api.js (imports/startup/server/api.js:1:8)[39m
+App 5156 stdout: [34mW20160619-17:44:44.653(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 5156 stdout: [34mW20160619-17:44:44.653(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 5156 stdout: [34mW20160619-17:44:44.654(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 5156 stdout: [34mW20160619-17:44:44.654(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.index.js (imports/startup/server/index.js:1:8)[39m
+App 5156 stdout: [34mW20160619-17:44:44.654(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 5156 stdout: => Exited with code: 8
+App 5156 stdout: [34mW20160619-17:44:47.752(1)? (STDERR) [39m[35m[39m
+App 5156 stdout: [34mW20160619-17:44:47.754(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 5156 stdout: [34mW20160619-17:44:47.754(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 5156 stdout: [34mW20160619-17:44:47.755(1)? (STDERR) [39m[35m						      ^[39m
+App 5156 stdout: [34mW20160619-17:44:47.765(1)? (STDERR) [39m[35mTypeError: Cannot call method 'validator' of undefined[39m
+App 5156 stdout: [34mW20160619-17:44:47.765(1)? (STDERR) [39m[35m    at meteorInstall.imports.api.coffee.methods.js (imports/api/coffee/methods.js:9:27)[39m
+App 5156 stdout: [34mW20160619-17:44:47.766(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 5156 stdout: [34mW20160619-17:44:47.766(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 5156 stdout: [34mW20160619-17:44:47.766(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 5156 stdout: [34mW20160619-17:44:47.767(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.api.js (imports/startup/server/api.js:1:8)[39m
+App 5156 stdout: [34mW20160619-17:44:47.767(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 5156 stdout: [34mW20160619-17:44:47.767(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 5156 stdout: [34mW20160619-17:44:47.768(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 5156 stdout: [34mW20160619-17:44:47.768(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.index.js (imports/startup/server/index.js:1:8)[39m
+App 5156 stdout: [34mW20160619-17:44:47.769(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 5156 stdout: => Exited with code: 8
+App 5156 stdout: [34mW20160619-17:44:51.221(1)? (STDERR) [39m[35m[39m
+App 5156 stdout: [34mW20160619-17:44:51.222(1)? (STDERR) [39m[35m/Users/melou/.meteor/packages/meteor-tool/.1.3.3_1.1p2l4k2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:280[39m
+App 5156 stdout: [34mW20160619-17:44:51.222(1)? (STDERR) [39m[35m						throw(ex);[39m
+App 5156 stdout: [34mW20160619-17:44:51.223(1)? (STDERR) [39m[35m						      ^[39m
+App 5156 stdout: [34mW20160619-17:44:51.242(1)? (STDERR) [39m[35mTypeError: Cannot call method 'validator' of undefined[39m
+App 5156 stdout: [34mW20160619-17:44:51.243(1)? (STDERR) [39m[35m    at meteorInstall.imports.api.coffee.methods.js (imports/api/coffee/methods.js:9:27)[39m
+App 5156 stdout: [34mW20160619-17:44:51.243(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 5156 stdout: [34mW20160619-17:44:51.244(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 5156 stdout: [34mW20160619-17:44:51.244(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 5156 stdout: [34mW20160619-17:44:51.245(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.api.js (imports/startup/server/api.js:1:8)[39m
+App 5156 stdout: [34mW20160619-17:44:51.245(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 5156 stdout: [34mW20160619-17:44:51.245(1)? (STDERR) [39m[35m    at Module.require (packages/modules-runtime/.npm/package/node_modules/install/install.js:82:1)[39m
+App 5156 stdout: [34mW20160619-17:44:51.246(1)? (STDERR) [39m[35m    at Module.Mp.import (/Users/melou/.meteor/packages/modules/.0.6.3.ghx3r8++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)[39m
+App 5156 stdout: [34mW20160619-17:44:51.246(1)? (STDERR) [39m[35m    at meteorInstall.imports.startup.server.index.js (imports/startup/server/index.js:1:8)[39m
+App 5156 stdout: [34mW20160619-17:44:51.246(1)? (STDERR) [39m[35m    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)[39m
+App 5156 stdout: => Exited with code: 8
+App 5156 stdout: => Your application is crashing. Waiting for file change.
+App 5156 stdout: => Modified -- restarting.
+App 5156 stdout: => Meteor server restarted
+
+
+[ 2016-06-19 18:00:14.1990 5141/0x70000018a000 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-06-19 18:00:14.1992 5143/0x700000104000 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-06-19 18:00:14.1993 5141/0x7fff7dc74000 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-06-19 18:00:14.1993 5143/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-06-19 18:00:14.1993 5141/0x7fff7dc74000 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 5156, application /Users/melou/Dev/coffeeApp/public (development)
+[ 2016-06-19 18:00:14.1994 5143/0x700000104000 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-06-19 18:00:14.1995 5143/0x70000020a000 Ser/Server.h:816 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-06-19 18:00:14.1996 5143/0x70000020a000 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-06-19 18:00:14.1999 5141/0x70000018a000 Ser/Server.h:816 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-06-19 18:00:14.2000 5141/0x70000018a000 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-06-19 18:00:14.2003 5141/0x7000005a2000 Ser/Server.h:816 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-06-19 18:00:14.2003 5141/0x7000005a2000 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-06-19 18:00:14.2004 5141/0x70000049c000 Ser/Server.h:816 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-06-19 18:00:14.2005 5143/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-06-19 18:00:14.2006 5141/0x700000290000 Ser/Server.h:816 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-06-19 18:00:14.2007 5141/0x700000290000 Ser/Server.h:464 ]: [ServerThr.2] Shutdown finished
+[ 2016-06-19 18:00:14.2010 5141/0x700000396000 Ser/Server.h:816 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-06-19 18:00:14.2010 5141/0x700000396000 Ser/Server.h:464 ]: [ServerThr.3] Shutdown finished
+[ 2016-06-19 18:00:14.2011 5141/0x70000049c000 Ser/Server.h:464 ]: [ServerThr.4] Shutdown finished
+[ 2016-06-19 18:00:14.2012 5141/0x7fff7dc74000 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 5156, application /Users/melou/Dev/coffeeApp/public (development)
+[ 2016-06-19 18:00:14.4771 5141/0x7fff7dc74000 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-06-19 18:35:00.7079 8129/0x7fff7dc74000 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-06-19 18:35:00.7320 8131/0x7fff7dc74000 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-06-19 18:35:00.7334 8131/0x7fff7dc74000 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-06-19 18:35:00.7483 8131/0x7fff7dc74000 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 8131
+[ 2016-06-19 18:35:00.7578 8133/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-06-19 18:35:00.7605 8133/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 8133
+App 8146 stdout: 
+App 8146 stdout: [[[[[ ~/Dev/coffeeApp ]]]]]
+App 8146 stdout: 
+App 8146 stdout: => Started proxy.
+App 8146 stdout: => Started MongoDB.
+App 8146 stdout: => Started your app.
+App 8146 stdout: 
+App 8146 stdout: => App running at: http://localhost:5970/
+
+
+[ 2016-06-19 18:36:08.0682 8131/0x70000018a000 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-06-19 18:36:08.0683 8133/0x700000104000 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-06-19 18:36:08.0683 8131/0x7fff7dc74000 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-06-19 18:36:08.0684 8133/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-06-19 18:36:08.0686 8131/0x7fff7dc74000 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 8146, application /Users/melou/Dev/coffeeApp/public (development)
+[ 2016-06-19 18:36:08.0694 8131/0x700000396000 Ser/Server.h:816 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-06-19 18:36:08.0695 8131/0x700000396000 Ser/Server.h:464 ]: [ServerThr.3] Shutdown finished
+[ 2016-06-19 18:36:08.0692 8131/0x700000290000 Ser/Server.h:816 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-06-19 18:36:08.0693 8131/0x70000018a000 Ser/Server.h:816 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-06-19 18:36:08.0695 8131/0x700000290000 Ser/Server.h:464 ]: [ServerThr.2] Shutdown finished
+[ 2016-06-19 18:36:08.0695 8131/0x70000018a000 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-06-19 18:36:08.0696 8131/0x70000049c000 Ser/Server.h:816 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-06-19 18:36:08.0696 8131/0x70000049c000 Ser/Server.h:464 ]: [ServerThr.4] Shutdown finished
+[ 2016-06-19 18:36:08.0695 8133/0x700000104000 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-06-19 18:36:08.0695 8133/0x70000020a000 Ser/Server.h:816 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-06-19 18:36:08.0698 8133/0x70000020a000 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-06-19 18:36:08.0705 8131/0x7000005a2000 Ser/Server.h:816 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-06-19 18:36:08.0708 8131/0x7000005a2000 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-06-19 18:36:08.0711 8133/0x7fff7dc74000 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-06-19 18:36:08.0733 8131/0x7fff7dc74000 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 8146, application /Users/melou/Dev/coffeeApp/public (development)
+[ 2016-06-19 18:36:08.2465 8131/0x7fff7dc74000 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
